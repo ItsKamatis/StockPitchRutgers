@@ -1,0 +1,844 @@
+2024-12-07 21:09:42,248 - INFO - Processing ticker: MA
+2024-12-07 21:09:42,461 - INFO - Processing ticker: PYPL
+2024-12-07 21:09:42,594 - INFO - Processing ticker: AXP
+2024-12-07 21:09:42,722 - INFO - Processing ticker: V
+2024-12-07 21:09:42,847 - INFO - Processing ticker: SQ
+2024-12-07 21:09:42,977 - INFO - Processing ticker: CRM
+2024-12-07 21:09:43,103 - INFO - Processing ticker: SHOP
+2024-12-07 21:09:43,221 - INFO - Processing ticker: ROKU
+2024-12-07 21:09:43,375 - INFO - Processing ticker: PLTR
+2024-12-07 21:09:43,513 - INFO - Processing ticker: CRWD
+2024-12-07 21:09:43,646 - INFO - Financial data saved to 'financial_data_comparison.csv'.
+2024-12-07 21:09:43,737 - INFO - P/E Ratio comparison plot saved as 'p_e ratio_comparison.png'.
+2024-12-07 21:09:43,817 - INFO - PEG Ratio comparison plot saved as 'peg ratio_comparison.png'.
+2024-12-07 21:09:43,900 - INFO - Price/Book comparison plot saved as 'price_book_comparison.png'.
+2024-12-07 21:09:43,979 - INFO - Profit Margin comparison plot saved as 'profit margin_comparison.png'.
+2024-12-07 21:09:44,090 - INFO - Return on Equity comparison plot saved as 'return on equity_comparison.png'.
+2024-12-07 21:09:44,171 - INFO - Debt/Equity comparison plot saved as 'debt_equity_comparison.png'.
+2024-12-07 21:09:44,271 - INFO - P/E Ratio vs Earnings Growth Rate scatter plot saved as 'pe_vs_growth.png'.
+2024-12-07 21:09:44,274 - INFO - Valuation comparison saved to 'valuation_comparison.csv'.
+2024-12-07 21:09:44,504 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-07 21:09:44,505 - INFO - Operating Cash Flow for MA: [11980000000.0, 11195000000.0, 9463000000.0, 7224000000.0]
+2024-12-07 21:09:44,997 - INFO - Fetched Risk-Free Rate from FRED: 4.17%
+2024-12-07 21:09:45,024 - INFO - Calculated Cost of Equity: 10.78%
+2024-12-07 21:09:45,025 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-07 21:09:45,026 - INFO - Calculated WACC: 10.48%
+2024-12-07 21:09:45,026 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,026 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,026 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,026 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,026 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,027 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-07 21:09:45,028 - INFO - Calculated Terminal Value with TGR 3.0%: 31872518182.57272
+2024-12-07 21:09:45,028 - INFO - Total Present Value: 38542221292.6933
+2024-12-07 21:09:45,028 - INFO - Equity Value: 31585221612.6933
+2024-12-07 21:09:45,028 - INFO - Intrinsic Value per Share: 34.67976654064844
+2024-12-07 21:09:45,028 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,028 - INFO - Upside/Downside %: -93.43894535432422
+2024-12-07 21:09:45,028 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,028 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,028 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,028 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,029 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,029 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-07 21:09:45,030 - INFO - Calculated Terminal Value with TGR 0.02%: 20102411873.267937
+2024-12-07 21:09:45,030 - INFO - Total Present Value: 30808992000.235733
+2024-12-07 21:09:45,030 - INFO - Equity Value: 23851992320.235733
+2024-12-07 21:09:45,030 - INFO - Intrinsic Value per Share: 26.188878309553843
+2024-12-07 21:09:45,030 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,030 - INFO - Upside/Downside %: -95.04533395585185
+2024-12-07 21:09:45,030 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,030 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,030 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,030 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,031 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,031 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-07 21:09:45,032 - INFO - Calculated Terminal Value with TGR 0.03%: 20123663440.56704
+2024-12-07 21:09:45,032 - INFO - Total Present Value: 30821904346.449562
+2024-12-07 21:09:45,032 - INFO - Equity Value: 23864904666.449562
+2024-12-07 21:09:45,032 - INFO - Intrinsic Value per Share: 26.20305573587298
+2024-12-07 21:09:45,032 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,032 - INFO - Upside/Downside %: -95.0426517328125
+2024-12-07 21:09:45,033 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,033 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,033 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,033 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,033 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,033 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-07 21:09:45,035 - INFO - Calculated Terminal Value with TGR 0.04%: 20144955726.134987
+2024-12-07 21:09:45,035 - INFO - Total Present Value: 30834841432.880287
+2024-12-07 21:09:45,035 - INFO - Equity Value: 23877841752.880287
+2024-12-07 21:09:45,035 - INFO - Intrinsic Value per Share: 26.217260326318325
+2024-12-07 21:09:45,035 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,035 - INFO - Upside/Downside %: -95.03996437060025
+2024-12-07 21:09:45,035 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,035 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,035 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,035 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,035 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,036 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-07 21:09:45,037 - INFO - Calculated Terminal Value with TGR 0.02%: 22131382219.623028
+2024-12-07 21:09:45,037 - INFO - Total Present Value: 32623555704.44529
+2024-12-07 21:09:45,037 - INFO - Equity Value: 25666556024.44529
+2024-12-07 21:09:45,037 - INFO - Intrinsic Value per Share: 28.181222906871223
+2024-12-07 21:09:45,037 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,037 - INFO - Upside/Downside %: -94.66840287816729
+2024-12-07 21:09:45,037 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,037 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,037 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,037 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,038 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,038 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-07 21:09:45,039 - INFO - Calculated Terminal Value with TGR 0.03%: 22154778743.464417
+2024-12-07 21:09:45,039 - INFO - Total Present Value: 32637771315.54767
+2024-12-07 21:09:45,039 - INFO - Equity Value: 25680771635.54767
+2024-12-07 21:09:45,039 - INFO - Intrinsic Value per Share: 28.19683128474833
+2024-12-07 21:09:45,039 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,039 - INFO - Upside/Downside %: -94.66544993383121
+2024-12-07 21:09:45,039 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,039 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,039 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,039 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,040 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,040 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-07 21:09:45,041 - INFO - Calculated Terminal Value with TGR 0.04%: 22178220095.338238
+2024-12-07 21:09:45,041 - INFO - Total Present Value: 32652014163.93879
+2024-12-07 21:09:45,041 - INFO - Equity Value: 25695014483.93879
+2024-12-07 21:09:45,041 - INFO - Intrinsic Value per Share: 28.21246956847275
+2024-12-07 21:09:45,041 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,041 - INFO - Upside/Downside %: -94.66249133161686
+2024-12-07 21:09:45,041 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,041 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,041 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,041 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,042 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,042 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-07 21:09:45,043 - INFO - Calculated Terminal Value with TGR 0.02%: 24320972226.62455
+2024-12-07 21:09:45,043 - INFO - Total Present Value: 34565085250.2182
+2024-12-07 21:09:45,043 - INFO - Equity Value: 27608085570.2182
+2024-12-07 21:09:45,043 - INFO - Intrinsic Value per Share: 30.31297275510141
+2024-12-07 21:09:45,043 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,044 - INFO - Upside/Downside %: -94.26509776281262
+2024-12-07 21:09:45,044 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,044 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,044 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,044 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,044 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,045 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-07 21:09:45,046 - INFO - Calculated Terminal Value with TGR 0.03%: 24346683508.500175
+2024-12-07 21:09:45,046 - INFO - Total Present Value: 34580707296.74807
+2024-12-07 21:09:45,046 - INFO - Equity Value: 27623707616.74807
+2024-12-07 21:09:45,046 - INFO - Intrinsic Value per Share: 30.33012536315293
+2024-12-07 21:09:45,046 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,046 - INFO - Upside/Downside %: -94.26185266603233
+2024-12-07 21:09:45,046 - WARNING - EBIT Margin could not be calculated.
+2024-12-07 21:09:45,046 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-07 21:09:45,046 - WARNING - Tax Rate could not be calculated.
+2024-12-07 21:09:45,046 - INFO - Using default Tax Rate from config: 0.21
+2024-12-07 21:09:45,047 - INFO - Forecasted Free Cash Flows:
+2024-12-07 21:09:45,047 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-07 21:09:45,048 - INFO - Calculated Terminal Value with TGR 0.04%: 24372444053.513588
+2024-12-07 21:09:45,048 - INFO - Total Present Value: 34596359275.31457
+2024-12-07 21:09:45,048 - INFO - Equity Value: 27639359595.314568
+2024-12-07 21:09:45,048 - INFO - Intrinsic Value per Share: 30.34731083581611
+2024-12-07 21:09:45,048 - INFO - Current Price: 528.57
+2024-12-07 21:09:45,048 - INFO - Upside/Downside %: -94.258601351606
+2024-12-07 21:09:45,048 - INFO - Sensitivity Analysis Completed.
+2024-12-07 21:09:45,048 - INFO -    Revenue Growth Rate (%)  Terminal Growth Rate (%)  Intrinsic Value per Share
+0                      3.0                       2.0                  26.188878
+1                      3.0                       3.0                  26.203056
+2                      3.0                       4.0                  26.217260
+3                      5.0                       2.0                  28.181223
+4                      5.0                       3.0                  28.196831
+5                      5.0                       4.0                  28.212470
+6                      7.0                       2.0                  30.312973
+7                      7.0                       3.0                  30.330125
+8                      7.0                       4.0                  30.347311
+2024-12-07 21:09:45,051 - INFO - Sensitivity analysis results saved to 'sensitivity_analysis.csv'.
+2024-12-07 21:09:45,052 - INFO - DCF src results saved to 'dcf_valuation.csv'.
+2024-12-07 21:09:45,115 - INFO - Forecasted Free Cash Flows plot saved as 'MA_forecasted_fcf.png'.
+2024-12-07 21:09:45,224 - INFO - Forecast components plot saved as 'MA_forecast_components.png'.
+2024-12-07 21:09:45,321 - INFO - Sensitivity analysis heatmap saved as 'MA_sensitivity_analysis.png'.
+2024-12-10 15:21:33,269 - INFO - Processing ticker: MA
+2024-12-10 15:21:33,633 - INFO - Processing ticker: PYPL
+2024-12-10 15:21:33,828 - INFO - Processing ticker: AXP
+2024-12-10 15:21:34,028 - INFO - Processing ticker: V
+2024-12-10 15:21:34,225 - INFO - Processing ticker: SQ
+2024-12-10 15:21:34,445 - INFO - Processing ticker: CRM
+2024-12-10 15:21:34,635 - INFO - Processing ticker: SHOP
+2024-12-10 15:21:35,094 - INFO - Processing ticker: ROKU
+2024-12-10 15:21:35,325 - INFO - Processing ticker: PLTR
+2024-12-10 15:21:35,535 - INFO - Processing ticker: CRWD
+2024-12-10 15:21:35,762 - INFO - Financial data saved to 'financial_data_comparison.csv'.
+2024-12-10 15:21:35,905 - INFO - P/E Ratio comparison plot saved as 'p_e ratio_comparison.png'.
+2024-12-10 15:21:35,984 - INFO - PEG Ratio comparison plot saved as 'peg ratio_comparison.png'.
+2024-12-10 15:21:36,067 - INFO - Price/Book comparison plot saved as 'price_book_comparison.png'.
+2024-12-10 15:21:36,145 - INFO - Profit Margin comparison plot saved as 'profit margin_comparison.png'.
+2024-12-10 15:21:36,249 - INFO - Return on Equity comparison plot saved as 'return on equity_comparison.png'.
+2024-12-10 15:21:36,329 - INFO - Debt/Equity comparison plot saved as 'debt_equity_comparison.png'.
+2024-12-10 15:21:36,432 - INFO - P/E Ratio vs Earnings Growth Rate scatter plot saved as 'pe_vs_growth.png'.
+2024-12-10 15:21:36,437 - INFO - Valuation comparison saved to 'valuation_comparison.csv'.
+2024-12-10 15:21:36,750 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:21:36,755 - INFO - Operating Cash Flow for MA: [11980000000.0, 11195000000.0, 9463000000.0, 7224000000.0]
+2024-12-10 15:21:36,918 - INFO - Fetched Risk-Free Rate from FRED: 4.15%
+2024-12-10 15:21:36,967 - INFO - Calculated Cost of Equity: 10.76%
+2024-12-10 15:21:36,968 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:21:36,968 - INFO - Calculated WACC: 10.46%
+2024-12-10 15:21:36,968 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,968 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,968 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,968 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,969 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,969 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:21:36,970 - INFO - Calculated Terminal Value with TGR 3.0%: 31954097236.95394
+2024-12-10 15:21:36,970 - INFO - Total Present Value: 38618041959.25916
+2024-12-10 15:21:36,971 - INFO - Equity Value: 31661042279.259163
+2024-12-10 15:21:36,971 - INFO - Intrinsic Value per Share: 34.76301569582942
+2024-12-10 15:21:36,971 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,971 - INFO - Upside/Downside %: -93.42729897980159
+2024-12-10 15:21:36,971 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,971 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,971 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,971 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,972 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,972 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:21:36,973 - INFO - Calculated Terminal Value with TGR 0.02%: 20139177025.58353
+2024-12-10 15:21:36,973 - INFO - Total Present Value: 30851018683.513474
+2024-12-10 15:21:36,973 - INFO - Equity Value: 23894019003.513474
+2024-12-10 15:21:36,973 - INFO - Intrinsic Value per Share: 26.235022534293556
+2024-12-10 15:21:36,973 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,973 - INFO - Upside/Downside %: -95.03970078761702
+2024-12-10 15:21:36,973 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,974 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,974 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,974 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,974 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,974 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:21:36,976 - INFO - Calculated Terminal Value with TGR 0.03%: 20160502748.935905
+2024-12-10 15:21:36,976 - INFO - Total Present Value: 30863987288.52498
+2024-12-10 15:21:36,976 - INFO - Equity Value: 23906987608.52498
+2024-12-10 15:21:36,976 - INFO - Intrinsic Value per Share: 26.24926173133551
+2024-12-10 15:21:36,976 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,976 - INFO - Upside/Downside %: -95.03700855902146
+2024-12-10 15:21:36,976 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,976 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,976 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,976 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,977 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,977 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:21:36,978 - INFO - Calculated Terminal Value with TGR 0.04%: 20181869407.5137
+2024-12-10 15:21:36,978 - INFO - Total Present Value: 30876980787.077522
+2024-12-10 15:21:36,978 - INFO - Equity Value: 23919981107.077522
+2024-12-10 15:21:36,978 - INFO - Intrinsic Value per Share: 26.263528260849657
+2024-12-10 15:21:36,978 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,978 - INFO - Upside/Downside %: -95.03431116263005
+2024-12-10 15:21:36,978 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,978 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,978 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,978 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,979 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,979 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:21:36,980 - INFO - Calculated Terminal Value with TGR 0.02%: 22171858140.790527
+2024-12-10 15:21:36,980 - INFO - Total Present Value: 32669263909.857216
+2024-12-10 15:21:36,980 - INFO - Equity Value: 25712264229.857216
+2024-12-10 15:21:36,980 - INFO - Intrinsic Value per Share: 28.23140934887613
+2024-12-10 15:21:36,980 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,980 - INFO - Upside/Downside %: -94.66224062225824
+2024-12-10 15:21:36,980 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,980 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,980 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,980 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,980 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,982 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:21:36,983 - INFO - Calculated Terminal Value with TGR 0.03%: 22195336305.380764
+2024-12-10 15:21:36,983 - INFO - Total Present Value: 32683541458.052643
+2024-12-10 15:21:36,983 - INFO - Equity Value: 25726541778.052643
+2024-12-10 15:21:36,983 - INFO - Intrinsic Value per Share: 28.24708573209933
+2024-12-10 15:21:36,983 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,983 - INFO - Upside/Downside %: -94.65927666248831
+2024-12-10 15:21:36,983 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,983 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,983 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,983 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,984 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,984 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:21:36,985 - INFO - Calculated Terminal Value with TGR 0.04%: 22218859536.85779
+2024-12-10 15:21:36,985 - INFO - Total Present Value: 32697846412.336212
+2024-12-10 15:21:36,985 - INFO - Equity Value: 25740846732.336212
+2024-12-10 15:21:36,985 - INFO - Intrinsic Value per Share: 28.262792206507267
+2024-12-10 15:21:36,985 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,985 - INFO - Upside/Downside %: -94.65630701332817
+2024-12-10 15:21:36,985 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,985 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,985 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,985 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,986 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,986 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:21:36,987 - INFO - Calculated Terminal Value with TGR 0.02%: 24365452672.752716
+2024-12-10 15:21:36,987 - INFO - Total Present Value: 34614759363.80209
+2024-12-10 15:21:36,987 - INFO - Equity Value: 27657759683.802094
+2024-12-10 15:21:36,987 - INFO - Intrinsic Value per Share: 30.367513662976844
+2024-12-10 15:21:36,987 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,987 - INFO - Upside/Downside %: -94.25836383759182
+2024-12-10 15:21:36,987 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,987 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,987 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,987 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,988 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,988 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:21:36,989 - INFO - Calculated Terminal Value with TGR 0.03%: 24391253672.584755
+2024-12-10 15:21:36,989 - INFO - Total Present Value: 34630449475.23206
+2024-12-10 15:21:36,989 - INFO - Equity Value: 27673449795.232063
+2024-12-10 15:21:36,989 - INFO - Intrinsic Value per Share: 30.384741004550076
+2024-12-10 15:21:36,989 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,989 - INFO - Upside/Downside %: -94.25510663555491
+2024-12-10 15:21:36,989 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:21:36,989 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:21:36,989 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:21:36,989 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:21:36,990 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:21:36,990 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:21:36,992 - INFO - Calculated Terminal Value with TGR 0.04%: 24417104198.040226
+2024-12-10 15:21:36,992 - INFO - Total Present Value: 34646169704.19839
+2024-12-10 15:21:36,992 - INFO - Equity Value: 27689170024.198387
+2024-12-10 15:21:36,992 - INFO - Intrinsic Value per Share: 30.402001414408925
+2024-12-10 15:21:36,992 - INFO - Current Price: 528.9
+2024-12-10 15:21:36,992 - INFO - Upside/Downside %: -94.2518431812424
+2024-12-10 15:21:36,992 - INFO - Sensitivity Analysis Completed.
+2024-12-10 15:21:36,992 - INFO -    Revenue Growth Rate (%)  Terminal Growth Rate (%)  Intrinsic Value per Share
+0                      3.0                       2.0                  26.235023
+1                      3.0                       3.0                  26.249262
+2                      3.0                       4.0                  26.263528
+3                      5.0                       2.0                  28.231409
+4                      5.0                       3.0                  28.247086
+5                      5.0                       4.0                  28.262792
+6                      7.0                       2.0                  30.367514
+7                      7.0                       3.0                  30.384741
+8                      7.0                       4.0                  30.402001
+2024-12-10 15:21:36,995 - INFO - Sensitivity analysis results saved to 'sensitivity_analysis.csv'.
+2024-12-10 15:21:36,995 - INFO - DCF src results saved to 'dcf_valuation.csv'.
+2024-12-10 15:21:37,064 - INFO - Forecasted Free Cash Flows plot saved as 'MA_forecasted_fcf.png'.
+2024-12-10 15:21:37,181 - INFO - Forecast components plot saved as 'MA_forecast_components.png'.
+2024-12-10 15:21:37,284 - INFO - Sensitivity analysis heatmap saved as 'MA_sensitivity_analysis.png'.
+2024-12-10 15:22:15,756 - INFO - Processing ticker: MA
+2024-12-10 15:22:16,034 - INFO - Processing ticker: PYPL
+2024-12-10 15:22:16,263 - INFO - Processing ticker: AXP
+2024-12-10 15:22:16,470 - INFO - Processing ticker: V
+2024-12-10 15:22:16,671 - INFO - Processing ticker: SQ
+2024-12-10 15:22:16,876 - INFO - Processing ticker: CRM
+2024-12-10 15:22:17,092 - INFO - Processing ticker: SHOP
+2024-12-10 15:22:17,369 - INFO - Processing ticker: ROKU
+2024-12-10 15:22:17,555 - INFO - Processing ticker: PLTR
+2024-12-10 15:22:17,785 - INFO - Processing ticker: CRWD
+2024-12-10 15:22:18,025 - INFO - Financial data saved to 'financial_data_comparison.csv'.
+2024-12-10 15:22:18,114 - INFO - P/E Ratio comparison plot saved as 'p_e ratio_comparison.png'.
+2024-12-10 15:22:18,186 - INFO - PEG Ratio comparison plot saved as 'peg ratio_comparison.png'.
+2024-12-10 15:22:18,267 - INFO - Price/Book comparison plot saved as 'price_book_comparison.png'.
+2024-12-10 15:22:18,346 - INFO - Profit Margin comparison plot saved as 'profit margin_comparison.png'.
+2024-12-10 15:22:18,451 - INFO - Return on Equity comparison plot saved as 'return on equity_comparison.png'.
+2024-12-10 15:22:18,528 - INFO - Debt/Equity comparison plot saved as 'debt_equity_comparison.png'.
+2024-12-10 15:22:18,625 - INFO - P/E Ratio vs Earnings Growth Rate scatter plot saved as 'pe_vs_growth.png'.
+2024-12-10 15:22:18,628 - INFO - Valuation comparison saved to 'valuation_comparison.csv'.
+2024-12-10 15:22:18,880 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:22:18,880 - INFO - Operating Cash Flow for MA: [11980000000.0, 11195000000.0, 9463000000.0, 7224000000.0]
+2024-12-10 15:22:19,225 - INFO - Fetched Risk-Free Rate from FRED: 4.15%
+2024-12-10 15:22:19,252 - INFO - Calculated Cost of Equity: 10.76%
+2024-12-10 15:22:19,253 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:22:19,253 - INFO - Calculated WACC: 10.46%
+2024-12-10 15:22:19,253 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,253 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,253 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,253 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,254 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,254 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:19,256 - INFO - Calculated Terminal Value with TGR 3.0%: 31953854117.833424
+2024-12-10 15:22:19,256 - INFO - Total Present Value: 38617816036.07974
+2024-12-10 15:22:19,256 - INFO - Equity Value: 31660816356.079742
+2024-12-10 15:22:19,256 - INFO - Intrinsic Value per Share: 34.76276763794923
+2024-12-10 15:22:19,256 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,256 - INFO - Upside/Downside %: -93.42865045926801
+2024-12-10 15:22:19,256 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,256 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,256 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,256 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,257 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,257 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:19,258 - INFO - Calculated Terminal Value with TGR 0.02%: 20139067538.940628
+2024-12-10 15:22:19,258 - INFO - Total Present Value: 30850893550.568382
+2024-12-10 15:22:19,258 - INFO - Equity Value: 23893893870.568382
+2024-12-10 15:22:19,258 - INFO - Intrinsic Value per Share: 26.234885141516152
+2024-12-10 15:22:19,258 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,258 - INFO - Upside/Downside %: -95.04071130868023
+2024-12-10 15:22:19,258 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,259 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,259 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,259 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,259 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,259 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:19,261 - INFO - Calculated Terminal Value with TGR 0.03%: 20160393041.26478
+2024-12-10 15:22:19,261 - INFO - Total Present Value: 30863861987.85257
+2024-12-10 15:22:19,261 - INFO - Equity Value: 23906862307.85257
+2024-12-10 15:22:19,261 - INFO - Intrinsic Value per Share: 26.249124154397794
+2024-12-10 15:22:19,261 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,261 - INFO - Upside/Downside %: -95.03801964926649
+2024-12-10 15:22:19,261 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,261 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,261 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,261 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,261 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,262 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:19,262 - INFO - Calculated Terminal Value with TGR 0.04%: 20181759478.167107
+2024-12-10 15:22:19,262 - INFO - Total Present Value: 30876855318.220253
+2024-12-10 15:22:19,262 - INFO - Equity Value: 23919855638.220253
+2024-12-10 15:22:19,262 - INFO - Intrinsic Value per Share: 26.26339049924926
+2024-12-10 15:22:19,262 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,262 - INFO - Upside/Downside %: -95.03532282317761
+2024-12-10 15:22:19,262 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,262 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,262 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,262 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,263 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,263 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:19,264 - INFO - Calculated Terminal Value with TGR 0.02%: 22171737603.476036
+2024-12-10 15:22:19,264 - INFO - Total Present Value: 32669127813.18068
+2024-12-10 15:22:19,264 - INFO - Equity Value: 25712128133.18068
+2024-12-10 15:22:19,264 - INFO - Intrinsic Value per Share: 28.231259918201648
+2024-12-10 15:22:19,264 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,264 - INFO - Upside/Downside %: -94.66332833939155
+2024-12-10 15:22:19,264 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,264 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,264 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,264 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,265 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,265 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:19,266 - INFO - Calculated Terminal Value with TGR 0.03%: 22195215524.729294
+2024-12-10 15:22:19,266 - INFO - Total Present Value: 32683405176.719788
+2024-12-10 15:22:19,266 - INFO - Equity Value: 25726405496.719788
+2024-12-10 15:22:19,267 - INFO - Intrinsic Value per Share: 28.246936098676926
+2024-12-10 15:22:19,267 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,267 - INFO - Upside/Downside %: -94.66036500625195
+2024-12-10 15:22:19,267 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,267 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,267 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,267 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,267 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,268 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:19,269 - INFO - Calculated Terminal Value with TGR 0.04%: 22218738512.156776
+2024-12-10 15:22:19,269 - INFO - Total Present Value: 32697709945.84331
+2024-12-10 15:22:19,269 - INFO - Equity Value: 25740710265.843307
+2024-12-10 15:22:19,269 - INFO - Intrinsic Value per Share: 28.262642369783862
+2024-12-10 15:22:19,269 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,269 - INFO - Upside/Downside %: -94.65739598495594
+2024-12-10 15:22:19,269 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,269 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,269 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,269 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,269 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,270 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:19,270 - INFO - Calculated Terminal Value with TGR 0.02%: 24365320209.96079
+2024-12-10 15:22:19,270 - INFO - Total Present Value: 34614611456.44869
+2024-12-10 15:22:19,270 - INFO - Equity Value: 27657611776.448692
+2024-12-10 15:22:19,270 - INFO - Intrinsic Value per Share: 30.36735126448085
+2024-12-10 15:22:19,270 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,270 - INFO - Upside/Downside %: -94.2595341699075
+2024-12-10 15:22:19,270 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,270 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,270 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,270 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,272 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,272 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:19,273 - INFO - Calculated Terminal Value with TGR 0.03%: 24391120942.381065
+2024-12-10 15:22:19,273 - INFO - Total Present Value: 34630301364.95319
+2024-12-10 15:22:19,273 - INFO - Equity Value: 27673301684.953194
+2024-12-10 15:22:19,273 - INFO - Intrinsic Value per Share: 30.3845783832471
+2024-12-10 15:22:19,273 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,273 - INFO - Upside/Downside %: -94.25627765649718
+2024-12-10 15:22:19,273 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:19,273 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:19,273 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:19,273 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:19,274 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:19,274 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:19,275 - INFO - Calculated Terminal Value with TGR 0.04%: 24416971199.641712
+2024-12-10 15:22:19,275 - INFO - Total Present Value: 34646021390.44048
+2024-12-10 15:22:19,275 - INFO - Equity Value: 27689021710.440483
+2024-12-10 15:22:19,275 - INFO - Intrinsic Value per Share: 30.401838569691165
+2024-12-10 15:22:19,275 - INFO - Current Price: 529.005
+2024-12-10 15:22:19,276 - INFO - Upside/Downside %: -94.25301489216716
+2024-12-10 15:22:19,276 - INFO - Sensitivity Analysis Completed.
+2024-12-10 15:22:19,276 - INFO -    Revenue Growth Rate (%)  Terminal Growth Rate (%)  Intrinsic Value per Share
+0                      3.0                       2.0                  26.234885
+1                      3.0                       3.0                  26.249124
+2                      3.0                       4.0                  26.263390
+3                      5.0                       2.0                  28.231260
+4                      5.0                       3.0                  28.246936
+5                      5.0                       4.0                  28.262642
+6                      7.0                       2.0                  30.367351
+7                      7.0                       3.0                  30.384578
+8                      7.0                       4.0                  30.401839
+2024-12-10 15:22:19,279 - INFO - Sensitivity analysis results saved to 'sensitivity_analysis.csv'.
+2024-12-10 15:22:19,279 - INFO - DCF src results saved to 'dcf_valuation.csv'.
+2024-12-10 15:22:19,342 - INFO - Forecasted Free Cash Flows plot saved as 'MA_forecasted_fcf.png'.
+2024-12-10 15:22:19,449 - INFO - Forecast components plot saved as 'MA_forecast_components.png'.
+2024-12-10 15:22:19,543 - INFO - Sensitivity analysis heatmap saved as 'MA_sensitivity_analysis.png'.
+2024-12-10 15:22:32,508 - INFO - Processing ticker: MA
+2024-12-10 15:22:32,747 - INFO - Processing ticker: PYPL
+2024-12-10 15:22:32,975 - INFO - Processing ticker: AXP
+2024-12-10 15:22:33,236 - INFO - Processing ticker: V
+2024-12-10 15:22:33,488 - INFO - Processing ticker: SQ
+2024-12-10 15:22:33,752 - INFO - Processing ticker: CRM
+2024-12-10 15:22:33,972 - INFO - Processing ticker: SHOP
+2024-12-10 15:22:34,319 - INFO - Processing ticker: ROKU
+2024-12-10 15:22:34,498 - INFO - Processing ticker: PLTR
+2024-12-10 15:22:34,750 - INFO - Processing ticker: CRWD
+2024-12-10 15:22:34,952 - INFO - Financial data saved to 'financial_data_comparison.csv'.
+2024-12-10 15:22:35,046 - INFO - P/E Ratio comparison plot saved as 'p_e ratio_comparison.png'.
+2024-12-10 15:22:35,121 - INFO - PEG Ratio comparison plot saved as 'peg ratio_comparison.png'.
+2024-12-10 15:22:35,206 - INFO - Price/Book comparison plot saved as 'price_book_comparison.png'.
+2024-12-10 15:22:35,290 - INFO - Profit Margin comparison plot saved as 'profit margin_comparison.png'.
+2024-12-10 15:22:35,401 - INFO - Return on Equity comparison plot saved as 'return on equity_comparison.png'.
+2024-12-10 15:22:35,489 - INFO - Debt/Equity comparison plot saved as 'debt_equity_comparison.png'.
+2024-12-10 15:22:35,595 - INFO - P/E Ratio vs Earnings Growth Rate scatter plot saved as 'pe_vs_growth.png'.
+2024-12-10 15:22:35,599 - INFO - Valuation comparison saved to 'valuation_comparison.csv'.
+2024-12-10 15:22:35,906 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:22:35,907 - INFO - Operating Cash Flow for MA: [11980000000.0, 11195000000.0, 9463000000.0, 7224000000.0]
+2024-12-10 15:22:36,041 - INFO - Fetched Risk-Free Rate from FRED: 4.15%
+2024-12-10 15:22:36,084 - INFO - Calculated Cost of Equity: 10.76%
+2024-12-10 15:22:36,085 - INFO - Calculated Effective Tax Rate: 16.60%
+2024-12-10 15:22:36,085 - INFO - Calculated WACC: 10.46%
+2024-12-10 15:22:36,086 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,086 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,086 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,086 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,086 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,087 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:36,088 - INFO - Calculated Terminal Value with TGR 3.0%: 31954039362.36173
+2024-12-10 15:22:36,088 - INFO - Total Present Value: 38617988178.185715
+2024-12-10 15:22:36,088 - INFO - Equity Value: 31660988498.185715
+2024-12-10 15:22:36,088 - INFO - Intrinsic Value per Share: 34.76295664558451
+2024-12-10 15:22:36,088 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,088 - INFO - Upside/Downside %: -93.42762080718731
+2024-12-10 15:22:36,088 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,088 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,088 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,088 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,089 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,089 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:36,091 - INFO - Calculated Terminal Value with TGR 0.02%: 20139150962.29278
+2024-12-10 15:22:36,091 - INFO - Total Present Value: 30850988895.63334
+2024-12-10 15:22:36,091 - INFO - Equity Value: 23893989215.63334
+2024-12-10 15:22:36,091 - INFO - Intrinsic Value per Share: 26.23498982796205
+2024-12-10 15:22:36,091 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,091 - INFO - Upside/Downside %: -95.03994142308227
+2024-12-10 15:22:36,091 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,091 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,091 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,091 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,091 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,092 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:36,092 - INFO - Calculated Terminal Value with TGR 0.03%: 20160476633.029293
+2024-12-10 15:22:36,092 - INFO - Total Present Value: 30863957460.71726
+2024-12-10 15:22:36,092 - INFO - Equity Value: 23906957780.717255
+2024-12-10 15:22:36,092 - INFO - Intrinsic Value per Share: 26.249228981164528
+2024-12-10 15:22:36,092 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,092 - INFO - Upside/Downside %: -95.03724933002515
+2024-12-10 15:22:36,092 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,092 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,092 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,092 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,093 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,093 - INFO -      Year  Free Cash Flow
+0  Year 1    4.821627e+09
+1  Year 2    4.899174e+09
+2  Year 3    4.979047e+09
+3  Year 4    5.061315e+09
+4  Year 5    5.146052e+09
+2024-12-10 15:22:36,094 - INFO - Calculated Terminal Value with TGR 0.04%: 20181843238.837147
+2024-12-10 15:22:36,094 - INFO - Total Present Value: 30876950919.2333
+2024-12-10 15:22:36,094 - INFO - Equity Value: 23919951239.2333
+2024-12-10 15:22:36,094 - INFO - Intrinsic Value per Share: 26.263495466719625
+2024-12-10 15:22:36,095 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,095 - INFO - Upside/Downside %: -95.03455206943903
+2024-12-10 15:22:36,095 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,095 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,095 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,095 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,095 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,095 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:36,097 - INFO - Calculated Terminal Value with TGR 0.02%: 22171829446.88787
+2024-12-10 15:22:36,097 - INFO - Total Present Value: 32669231512.061188
+2024-12-10 15:22:36,097 - INFO - Equity Value: 25712231832.061188
+2024-12-10 15:22:36,097 - INFO - Intrinsic Value per Share: 28.231373776923636
+2024-12-10 15:22:36,097 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,097 - INFO - Upside/Downside %: -94.66249964041714
+2024-12-10 15:22:36,097 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,097 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,097 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,097 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,097 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,098 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:36,099 - INFO - Calculated Terminal Value with TGR 0.03%: 22195307553.551636
+2024-12-10 15:22:36,099 - INFO - Total Present Value: 32683509016.299072
+2024-12-10 15:22:36,099 - INFO - Equity Value: 25726509336.299072
+2024-12-10 15:22:36,099 - INFO - Intrinsic Value per Share: 28.24705011188258
+2024-12-10 15:22:36,099 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,099 - INFO - Upside/Downside %: -94.65953582986575
+2024-12-10 15:22:36,099 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,099 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,099 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,099 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,100 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,100 - INFO -      Year  Free Cash Flow
+0  Year 1    4.871819e+09
+1  Year 2    5.003573e+09
+2  Year 3    5.141914e+09
+3  Year 4    5.287172e+09
+4  Year 5    5.439693e+09
+2024-12-10 15:22:36,100 - INFO - Calculated Terminal Value with TGR 0.04%: 22218830726.932564
+2024-12-10 15:22:36,100 - INFO - Total Present Value: 32697813926.505184
+2024-12-10 15:22:36,100 - INFO - Equity Value: 25740814246.505188
+2024-12-10 15:22:36,100 - INFO - Intrinsic Value per Share: 28.2627565378946
+2024-12-10 15:22:36,100 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,102 - INFO - Upside/Downside %: -94.65656633021797
+2024-12-10 15:22:36,102 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,102 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,102 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,102 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,102 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,102 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:36,104 - INFO - Calculated Terminal Value with TGR 0.02%: 24365421139.990658
+2024-12-10 15:22:36,104 - INFO - Total Present Value: 34614724154.474815
+2024-12-10 15:22:36,104 - INFO - Equity Value: 27657724474.474815
+2024-12-10 15:22:36,104 - INFO - Intrinsic Value per Share: 30.367475004034855
+2024-12-10 15:22:36,104 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,104 - INFO - Upside/Downside %: -94.25864252889637
+2024-12-10 15:22:36,104 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,104 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,104 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,104 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,104 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,105 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:36,106 - INFO - Calculated Terminal Value with TGR 0.03%: 24391222076.165207
+2024-12-10 15:22:36,106 - INFO - Total Present Value: 34630414217.59827
+2024-12-10 15:22:36,106 - INFO - Equity Value: 27673414537.598267
+2024-12-10 15:22:36,106 - INFO - Intrinsic Value per Share: 30.38470229256876
+2024-12-10 15:22:36,106 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,106 - INFO - Upside/Downside %: -94.25538549084109
+2024-12-10 15:22:36,106 - WARNING - EBIT Margin could not be calculated.
+2024-12-10 15:22:36,106 - INFO - Using default EBIT Margin from config: 0.15
+2024-12-10 15:22:36,106 - WARNING - Tax Rate could not be calculated.
+2024-12-10 15:22:36,106 - INFO - Using default Tax Rate from config: 0.21
+2024-12-10 15:22:36,107 - INFO - Forecasted Free Cash Flows:
+2024-12-10 15:22:36,107 - INFO -      Year  Free Cash Flow
+0  Year 1    4.922011e+09
+1  Year 2    5.109979e+09
+2  Year 3    5.311105e+09
+3  Year 4    5.526310e+09
+4  Year 5    5.756579e+09
+2024-12-10 15:22:36,108 - INFO - Calculated Terminal Value with TGR 0.04%: 24417072537.776787
+2024-12-10 15:22:36,108 - INFO - Total Present Value: 34646134398.12629
+2024-12-10 15:22:36,108 - INFO - Equity Value: 27689134718.12629
+2024-12-10 15:22:36,108 - INFO - Intrinsic Value per Share: 30.401962649243593
+2024-12-10 15:22:36,108 - INFO - Current Price: 528.925
+2024-12-10 15:22:36,108 - INFO - Upside/Downside %: -94.25212220083309
+2024-12-10 15:22:36,108 - INFO - Sensitivity Analysis Completed.
+2024-12-10 15:22:36,108 - INFO -    Revenue Growth Rate (%)  Terminal Growth Rate (%)  Intrinsic Value per Share
+0                      3.0                       2.0                  26.234990
+1                      3.0                       3.0                  26.249229
+2                      3.0                       4.0                  26.263495
+3                      5.0                       2.0                  28.231374
+4                      5.0                       3.0                  28.247050
+5                      5.0                       4.0                  28.262757
+6                      7.0                       2.0                  30.367475
+7                      7.0                       3.0                  30.384702
+8                      7.0                       4.0                  30.401963
+2024-12-10 15:22:36,111 - INFO - Sensitivity analysis results saved to 'sensitivity_analysis.csv'.
+2024-12-10 15:22:36,112 - INFO - DCF src results saved to 'dcf_valuation.csv'.
+2024-12-10 15:22:36,178 - INFO - Forecasted Free Cash Flows plot saved as 'MA_forecasted_fcf.png'.
+2024-12-10 15:22:36,284 - INFO - Forecast components plot saved as 'MA_forecast_components.png'.
+2024-12-10 15:22:36,381 - INFO - Sensitivity analysis heatmap saved as 'MA_sensitivity_analysis.png'.

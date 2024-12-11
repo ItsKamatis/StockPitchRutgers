@@ -1,0 +1,32 @@
+# config.yaml
+
+fred:
+  api_key: "fredapikeyhere"
+
+tickers:
+  comparison_group:
+    - MA
+    - PYPL
+    - AXP
+    - V
+    - SQ
+    - CRM
+    - SHOP
+    - ROKU
+    - PLTR
+    - CRWD
+  focused_ticker: MA
+
+valuation:
+  forecast_years: 5
+  perpetual_growth_rate: 5        #5%
+  revenue_growth_rate: .07        # 7% Revenue Growth Rate
+  ebit_margin: null                # Use historical average if null
+  tax_rate: null                   # Use historical average if null
+  capex_percent: null              # Use historical average if null
+  nwc_change: null                 # Use historical average if null
+  default_ebit_margin: 0.56        # Default EBIT Margin if cannot be calculated
+  default_tax_rate: 0.16           # Default Tax Rate if cannot be calculated
+  sensitivity:
+    revenue_growth_rates: [0.05, 0.10, 0.15]
+    terminal_growth_rates: [0.03, 0.05, 0.07]
